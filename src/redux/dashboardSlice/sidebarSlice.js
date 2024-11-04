@@ -1,10 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import active from "/images/sidebar/active.png"
-import people from "/images/sidebar/people.png"
-import library from "/images/sidebar/library.png"
-import setting from "/images/sidebar/setting.png"
-import getStarted from "/images/sidebar/getStarted.png"
-
+import active from "/images/sidebar/active.png";
+import people from "/images/sidebar/people.png";
+import library from "/images/sidebar/library.png";
+import setting from "/images/sidebar/setting.png";
+import getStarted from "/images/sidebar/getStarted.png";
 
 const initialState = {
   value: 0,
@@ -39,7 +38,7 @@ const initialState = {
     {
       name: "Get Started",
       iconImg: getStarted,
-      
+
       link: "/get-started",
     },
     {
@@ -52,8 +51,8 @@ const initialState = {
   sidebarUser: [
     {
       fullName: "Sam Wheeler",
-      email: "samwheeler@example.com"
-    }, 
+      email: "samwheeler@example.com",
+    },
   ],
 };
 
